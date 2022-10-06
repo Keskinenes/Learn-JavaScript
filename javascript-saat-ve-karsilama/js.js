@@ -17,19 +17,19 @@ function startTime()
     let d;
     let day = today.getDay();
     switch (day) {
-        case 0:    d = "Pazartesi";
+        case 1:    d = "Pazartesi";
             break;
-        case 1:    d ="Sali";
+        case 2:    d ="Sali";
             break;
-        case 2:    d ="Carsamba";
+        case 3:    d ="Carsamba";
             break;
-        case 3:    d ="Persembe";
+        case 4:    d ="Persembe";
             break;
-        case 4:    d = "Cuma";
+        case 5:    d = "Cuma";
             break;
-        case 5:    d ="Cumartesi";
+        case 6:    d ="Cumartesi";
             break;
-        case 6:    d = "Pazar";
+        case 0:    d = "Pazar";
         default:
             break;
     }
