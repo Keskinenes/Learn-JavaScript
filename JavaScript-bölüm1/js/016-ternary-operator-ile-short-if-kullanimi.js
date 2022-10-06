@@ -18,8 +18,8 @@ let boolean;
 
 console.log(boolean)
 
-var money;
-    var canBuy = 
+    let money;
+    let canBuy = 
         (money < 17) ? "Satın alamazsın..":
         (money > 30) ? "Satın alabilirsin..":
         "Para miktarını girmen gerekmektedir..";
