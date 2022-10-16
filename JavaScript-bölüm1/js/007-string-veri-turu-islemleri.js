@@ -8,7 +8,7 @@ console.log(email.length)
 
 //Ilk karakteri bulmak ->[0]
 console.log(firsName[0])
-console.log(firsName.charAt(2))
+console.log("charAt:" +firsName.charAt(0))
 
 //Buyuk harf / kucuk harf
 firsName = firsName.toUpperCase()
