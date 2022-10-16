@@ -1,0 +1,15 @@
+[16,21,11,8,12,22] -> Merge Sort
+Dizimizi ikiye bölelim
+
+[16,21,11]  [8,12,22]
+Bir daha ikiye bölelim
+[16]  [21,11]   [8] [12,22]
+[16] [21] [11]   [8] [12] [22]
+Parçaları sıralı küçük dizilere dönüştüreceğiz.
+[16] [11,21]      [8] [12,22]
+[11,16,21]   [8,12,22]
+Bu aşamada birleştireceğiz.
+[8,11,12,16,21,22]
+
+Big-O gösterimini yazınız.
+İkiye bölerek ilerlediğimiz için dizimiz: O(n.logn)
